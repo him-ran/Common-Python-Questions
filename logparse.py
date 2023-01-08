@@ -10,6 +10,7 @@
     Your program will parse the given log file and print out a report giving
     how long the device was ON and the timestamp of any ERR conditions.
 """
+import os
 
 errorTimeList = []
 
@@ -19,7 +20,7 @@ def getontime():
 
 if __name__ == "__main__":
     count = 0
-    with open("C:\\Users\\g521781\\Desktop\\Learning\\Python\\test.log", "r") as logFile:
+    with open(os.getcwd() + "\\test.log", "r") as logFile:
         for i in logFile:
             status = (i.rstrip().split(":")[-1])
             if status == " ON":

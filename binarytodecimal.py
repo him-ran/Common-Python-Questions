@@ -2,7 +2,7 @@
 This is for the conversion of Binary number to its decimal value
 '''
 import sys
-dec_num = (input("Enter the decimal number: "))
+dec_num = (input("Enter the binary number: "))
 dec_length = len(dec_num)
 sums = 0
 for num in range(dec_length-1, -1, -1):
