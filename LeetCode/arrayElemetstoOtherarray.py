@@ -1,9 +1,10 @@
 '''
 Description: Here we need to convert the individual charcters of the elements of the lts into individual elements of an another list.
 NOTE: First element of all the elements of the input array, will be the first elemnt of the output array added as the list.
+LeetCode Question URL : https://leetcode.com/problems/delete-columns-to-make-sorted/
 '''
 # Input Array
-inp_array =["a","b"]
+inp_array =["abc","bce","cae"]
 input_arrayLength = len(inp_array)
 
 # Final Array
@@ -20,8 +21,6 @@ print(tempArray)
 for i in range(0,len(tempArray)):
     tempArray2 = []
     for elem in tempArray:
-        print(i)
-        print(elem[i])
         tempArray2.append(elem[i])
     output_array.append(tempArray2)
 

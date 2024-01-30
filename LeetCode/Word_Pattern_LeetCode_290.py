@@ -4,7 +4,7 @@ Example: Input: pattern = "abab", s = 'dog cat dog cat'
          Output: true
 Explaination : pattern = 'abab'; s = 'dog cat dog cat'; return True
 'a' represents 'dog' and 'b' represents cat
-
+LeetCode Question URL : https://leetcode.com/problems/word-pattern/
 '''
 
 inputString = "dog dog dog dog"
